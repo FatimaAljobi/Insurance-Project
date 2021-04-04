@@ -1,0 +1,20 @@
+import java.sql.*;
+
+/**
+ * Created by fatima on 03/12/2020.
+ */
+public class ConnectStudentSystem {
+    public static void main(String[] args) {
+        try {
+            Connection conn= DriverManager.getConnection("jdbc:ucanaccess://F:\\StudentSystem.accdb");
+            Statement s = conn.createStatement();
+            ResultSet rs = s.executeQuery("SELECT * FROM Student");
+            while(rs.next())
+                System.out.println(rs.getInt("s_id") + " " + rs.getString("s_name") + " " + rs.getString("s_major"));
+        }
+
+        catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
