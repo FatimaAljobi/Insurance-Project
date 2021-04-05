@@ -149,9 +149,9 @@ public class Menu {
         numofinsu = num.nextInt();
         return numofinsu;
     }
-
-
-    public void addCustomer() {
+    
+    
+     public void addCustomer() {
 
         System.out.println("enter (T)name & (N)job & (T)type & (T)job place name & (T)address & (N)telephone & (N)fax & (T)email & (N)id");
         Customer c;
