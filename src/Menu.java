@@ -206,7 +206,7 @@ public class Menu {
     }
 
 
-    public Vehicle addVehicle(String vtype, String brand, String model, int vehicleno, int cardno, int driverlicenseno, double vprice) {
+     public Vehicle addVehicle(String vtype, String brand, String model, int vehicleno, int cardno, int driverlicenseno, double vprice) {
         Vehicle v = new Vehicle(vtype, brand, model, vehicleno, cardno, driverlicenseno, vprice);
         return v;
 
@@ -219,6 +219,7 @@ public class Menu {
         return i;
     }
 
+   
 
     public void addCustomer(String name, String job, String type, String jobplacename, String address, String telephone, String fax, String email, int id,
                             String insurancestartdate, String insuranceenddate, String typevehicle, int numofinsu,
