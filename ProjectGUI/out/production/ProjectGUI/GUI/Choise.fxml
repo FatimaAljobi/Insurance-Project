@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="752.0" prefWidth="1293.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="92.0" prefWidth="761.0" style="-fx-border-color: #ff6d00; -fx-border-width: 0 0 1 0;" text="WELCOME" textFill="#26b291">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="72.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="170.0" prefHeight="92.0" prefWidth="711.0" text="Please Choose The Operation You Want To Perform" textAlignment="JUSTIFY" textFill="#ea5e01">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font></Label>
+      <AnchorPane layoutX="825.0" prefHeight="752.0" prefWidth="468.0" style="-fx-border-color: #e0e0e0; -fx-border-width: 0 0 0 1; -fx-background-color: #90a4ae;">
+         <children>
+            <MenuButton alignment="CENTER" layoutX="6.0" layoutY="14.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" opacity="0.99" prefHeight="26.0" prefWidth="447.0" style="-fx-background-color: #d81b60; -fx-background-radius: 90; -fx-border-color: #fafafa; -fx-border-width: 1.5; -fx-border-radius: 90;" text="Add" textAlignment="RIGHT" textFill="WHITE">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Customer" />
+                <MenuItem mnemonicParsing="false" text="Vehicle" />
+                  <MenuItem text="Copmensation" />
+              </items>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+               </font>
+            </MenuButton>
+            <MenuButton alignment="CENTER" layoutX="11.0" layoutY="185.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="38.0" prefWidth="447.0" style="-fx-background-color: #37474f; -fx-background-radius: 90; -fx-border-color: #fafafa; -fx-border-radius: 90; -fx-border-image-width: 1.5;" text="Edit" textAlignment="CENTER" textFill="#f8f8f8">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Customer" />
+                <MenuItem mnemonicParsing="false" text="Vehicle" />
+                  <MenuItem mnemonicParsing="false" text="Compensation" />
+              </items>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+               </font>
+            </MenuButton>
+            <MenuButton alignment="CENTER" layoutX="11.0" layoutY="373.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="38.0" prefWidth="447.0" style="-fx-background-color: #d81b60; -fx-border-color: #fafafa; -fx-background-radius: 90; -fx-border-radius: 90; -fx-border-width: 1.5;" text="Delete" textFill="WHITE">
+              <items>
+                <MenuItem fx:id="CustomerDelete" mnemonicParsing="false" text="Customer" />
+                <MenuItem fx:id="VehicleDelete" mnemonicParsing="false" text="Vehicle" />
+                  <MenuItem fx:id="CompensationDelete" mnemonicParsing="false" text="Compensation" />
+              </items>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+               </font>
+            </MenuButton>
+            <MenuButton fx:id="ViewButton" alignment="CENTER" layoutX="12.0" layoutY="567.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="38.0" prefWidth="447.0" style="-fx-background-radius: 90; -fx-border-radius: 90; -fx-border-color: #fafafa; -fx-border-width: 1.5; -fx-background-color: #37474f;" text="View" textFill="WHITE">
+              <items>
+                <MenuItem fx:id="CustomerView" mnemonicParsing="false" text="Customer" />
+                <MenuItem fx:id="VehicleView" mnemonicParsing="false" text="Vehicle" />
+                  <MenuItem fx:id="CompensationView" mnemonicParsing="false" text="Comensation" />
+              </items>
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+               </font>
+            </MenuButton>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

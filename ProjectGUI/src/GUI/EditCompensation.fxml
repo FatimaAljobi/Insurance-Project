@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="EditCompensation" prefHeight="802.0" prefWidth="1329.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EditCompensation">
+   <children>
+      <ImageView fitHeight="802.0" fitWidth="1332.0" layoutX="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../image/image/PicsArt_12-08.05.32.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="401.0" prefHeight="36.0" prefWidth="282.0" style="-fx-border-color: #ea5e01; -fx-border-radius: 90; -fx-border-width: 0 0 1 0;" text="Edit Compensation">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1009.0" layoutY="40.0" prefHeight="44.0" prefWidth="170.0" style="-fx-border-color: black; -fx-border-width: 0 0 1 0; -fx-background-color: #b0bec5; -fx-background-radius: 5;" text=": Vehicle Plate" textFill="#d81b60">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="1009.0" layoutY="100.0" prefHeight="44.0" prefWidth="170.0" style="-fx-border-color: black; -fx-border-width: 0 0 1 0; -fx-background-color: #b0bec5; -fx-background-radius: 5;" text=": Incident number" textFill="#d81b60">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1010.0" layoutY="157.0" prefHeight="44.0" prefWidth="170.0" style="-fx-border-color: black; -fx-border-width: 0 0 1 0; -fx-background-color: #b0bec5; -fx-background-radius: 5;" text=": Date of Incident" textFill="#d81b60">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1009.0" layoutY="217.0" prefHeight="44.0" prefWidth="170.0" style="-fx-border-color: black; -fx-border-width: 0 0 1 0; -fx-background-color: #b0bec5; -fx-background-radius: 5;" text=": Incident Details" textFill="#d81b60">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1009.0" layoutY="275.0" prefHeight="44.0" prefWidth="170.0" style="-fx-border-color: black; -fx-border-width: 0 0 1 0; -fx-background-color: #b0bec5; -fx-background-radius: 5;" text=": Total Costs" textFill="#d81b60">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="958.0" layoutY="338.0" prefHeight="44.0" prefWidth="221.0" style="-fx-border-color: black; -fx-border-width: 0 0 1 0; -fx-background-color: #b0bec5; -fx-background-radius: 5;" text=": Compulsory endurance" textFill="#d81b60">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="957.0" layoutY="393.0" prefHeight="44.0" prefWidth="222.0" style="-fx-border-color: black; -fx-border-width: 0 0 1 0; -fx-background-color: #b0bec5; -fx-background-radius: 5;" text=": Net compensation" textFill="#d81b60">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="524.0" layoutY="40.0" prefHeight="44.0" prefWidth="170.0" style="-fx-border-color: black; -fx-border-width: 0 0 1 0; -fx-background-color: #b0bec5; -fx-background-radius: 5;" text=": Insurance number" textFill="#d81b60">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="InsuranumFieled" alignment="CENTER_RIGHT" layoutX="254.0" layoutY="40.0" prefHeight="44.0" prefWidth="251.0" promptText="Insurance number" />
+      <TextField fx:id="TotalCostsFieled" alignment="CENTER_RIGHT" layoutX="711.0" layoutY="275.0" prefHeight="44.0" prefWidth="282.0" promptText="Total Costs" />
+      <TextField fx:id="ComendFieled" alignment="CENTER_RIGHT" layoutX="655.0" layoutY="338.0" prefHeight="44.0" prefWidth="282.0" promptText="Compulsory endurance" />
+      <TextField fx:id="NetcompFieled" alignment="CENTER_RIGHT" layoutX="655.0" layoutY="393.0" prefHeight="44.0" prefWidth="282.0" promptText="Net compensation" />
+      <TextField fx:id="VehicleFieled" alignment="CENTER_RIGHT" layoutX="711.0" layoutY="40.0" prefHeight="44.0" prefWidth="281.0" promptText="Vehicle Plate" />
+      <TextField fx:id="IncidentnumFieled" alignment="CENTER_RIGHT" layoutX="711.0" layoutY="100.0" prefHeight="44.0" prefWidth="282.0" promptText="Incident number" />
+      <TextField fx:id="DateofInciFieled" alignment="CENTER_RIGHT" layoutX="711.0" layoutY="157.0" prefHeight="44.0" prefWidth="282.0" promptText="Date of Incident" />
+      <TextField fx:id="IncidentDetailsFieled" alignment="CENTER_RIGHT" layoutX="711.0" layoutY="217.0" prefHeight="44.0" prefWidth="282.0" promptText="Incident Details" />
+   </children>
+</AnchorPane>
